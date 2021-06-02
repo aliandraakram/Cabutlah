@@ -61,5 +61,7 @@
     <string name="sign_in">Sign in</string>
     <string name="login">Login</string>
     <string name="passwordtxt">Password</string>
+    <string name="show_location">Show Location</string>
+    <string name="detail_location_title">Detail Location</string>
 
 </resources>

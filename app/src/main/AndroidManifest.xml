@@ -21,15 +21,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CabutlahApp">
-        <activity android:name=".ui.vacation.VacationActivity"
-            android:parentActivityName=".ui.home.HomeActivity"
-            android:label="VACATION"/>
-        <activity android:name=".ui.restaurant.RestaurantActivity"
-            android:parentActivityName=".ui.home.HomeActivity"
-            android:label="RESTAURANT"/>
-        <activity android:name=".ui.hotel.HotelActivity"
-            android:parentActivityName=".ui.home.HomeActivity"
-            android:label="HOTEL"/>
+        <activity android:name=".ui.maps.MapsDetailActivity"></activity>
+        <activity
+            android:name=".ui.vacation.VacationActivity"
+            android:label="VACATION"
+            android:parentActivityName=".ui.home.HomeActivity" />
+        <activity
+            android:name=".ui.restaurant.RestaurantActivity"
+            android:label="RESTAURANT"
+            android:parentActivityName=".ui.home.HomeActivity" />
+        <activity
+            android:name=".ui.hotel.HotelActivity"
+            android:label="HOTEL"
+            android:parentActivityName=".ui.home.HomeActivity" />
         <activity
             android:name=".ui.auth.ProfileActivity"
             android:parentActivityName=".ui.home.HomeActivity" />
@@ -40,9 +44,10 @@
 
         <activity
             android:name=".ui.maps.MapsActivity"
-            android:parentActivityName=".ui.home.HomeActivity"
-            android:label="Maps"/>
-        <activity android:name=".ui.Detail.DetailActivity" />
+            android:label="Maps"
+            android:parentActivityName=".ui.home.HomeActivity" />
+        <activity android:name=".ui.Detail.DetailActivity"
+            android:label="Detail Location"/>
         <activity
             android:name=".ui.home.HomeActivity"
             android:theme="@style/Theme.CabutlahApp" />
